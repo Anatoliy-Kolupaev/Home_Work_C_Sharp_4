@@ -11,10 +11,10 @@ int ReadData(string msg)
 }
 int Degree(int num, int num1)
 {
-    int result =1;
+    int result = 1;
     for (int i = 1; i <= num1; i++)
     {
-        result = result * num1;
+        result = result * num;
         // int result = Math.Pow(num, num1);
     }
     return result;
