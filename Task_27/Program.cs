@@ -10,12 +10,10 @@ int ReadData(string msg)
 }
 int Method1(int user_number)
 {
-    int x = 0;
     int result = 0;
-    for (int i = -10; i <= user_number; i++)
+    while ( user_number > 0)
     {
-        x = user_number % 10;
-        result = result + x;
+        result = result + user_number % 10;
         user_number = user_number / 10!;
     }
     return result;
