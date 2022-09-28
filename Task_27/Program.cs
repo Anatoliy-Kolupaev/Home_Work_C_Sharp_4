@@ -14,7 +14,7 @@ int Method1(int user_number)
     while ( user_number > 0)
     {
         result = result + user_number % 10;
-        user_number = user_number / 10!;
+        user_number = user_number / 10;
     }
     return result;
 }
