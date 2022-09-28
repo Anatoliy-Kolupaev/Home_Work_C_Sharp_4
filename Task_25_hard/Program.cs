@@ -38,8 +38,8 @@ void PrintData(string msg, int value)
     Console.WriteLine(msg + value);
 }
 int num = ReadData ("Введите число А: ");
-int num1 = ReadData ("Введите число B: ");
 int doit = ReadDoIt ("Выберите действие '+' '-' '/' '*': ");
+int num1 = ReadData ("Введите число B: ");
 if (doit == '+') PrintData ("Результат = ", Summ(num, num1));
 if (doit == '-') PrintData ("Результат = ", Diff(num, num1));
 if (doit == '/') PrintData ("Результат = ", Division(num, num1));
